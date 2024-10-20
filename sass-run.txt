@@ -1,0 +1,1 @@
+sass --watch d:\Web-Template\Projects\curly\assets\scss\main.scss:d:\Web-Template\Projects\curly\assets\css\style.css

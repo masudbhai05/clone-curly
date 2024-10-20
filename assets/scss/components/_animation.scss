@@ -1,0 +1,52 @@
+@use '../utils/' as *;
+
+/* 04. ========= firefly ========== */
+@keyframes firefly {
+	0% {
+	 opacity: 1.0;
+	}
+	50% {
+	 opacity: 0.0;
+	}
+	100% {
+	 opacity: 1.0;
+	 color: white; 
+	}
+}
+
+/* 05. ========= firefly ========== */
+@keyframes hotdeal {
+	0% {
+	 opacity: 1.0;
+	}
+	50% {
+	 opacity: 0.6;
+	}
+	75% {
+	 opacity: 0.8;
+	}
+	100% {
+	 opacity: 1.5;
+	}
+}
+
+/* 06. ========= lightwhite ========== */
+@keyframes lightwhite {
+	100% {
+		left: 100%;
+	}
+}
+
+/* 02. ========= btn arrow animation ========== */
+@keyframes iconarrow {
+    49% {
+        transform: translateX(30%);
+    }
+    50% {
+        opacity: 0;
+        transform: translateX(-30%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
